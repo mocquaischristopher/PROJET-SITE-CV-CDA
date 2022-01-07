@@ -20,6 +20,12 @@ header {
   grid-area: nav_log;
 }
 
+.nav_exp {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: nav_exp;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
@@ -27,6 +33,6 @@ nav {
       grid-template-columns: repeat(7), 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-      grid-template-areas: "nav_profil nav_compet nav_log";
+      grid-template-areas: "nav_profil nav_compet nav_log nav_exp";
 }
 /*# sourceMappingURL=main.css.map */
