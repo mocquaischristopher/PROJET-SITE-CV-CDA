@@ -1,9 +1,14 @@
 header {
     background-image: url(../../../img/img-header.PNG);
 }
-
+.nav_profil {
+    grid-area: nav_profil;
+}
 nav {
     display: grid;
     grid-template-columns: repeat(7), 1fr;
     grid-template-rows: 1fr;
+    grid-template-areas: 
+    "nav_profil "
+    ;
 }

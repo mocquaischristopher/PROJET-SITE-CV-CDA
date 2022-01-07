@@ -2,6 +2,12 @@ header {
   background-image: url(../../../img/img-header.PNG);
 }
 
+.nav_profil {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: nav_profil;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
@@ -9,5 +15,6 @@ nav {
       grid-template-columns: repeat(7), 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
+      grid-template-areas: "nav_profil ";
 }
 /*# sourceMappingURL=main.css.map */
