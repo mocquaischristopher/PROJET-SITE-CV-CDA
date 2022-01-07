@@ -4,11 +4,15 @@ header {
 .nav_profil {
     grid-area: nav_profil;
 }
+.nav_compet {
+    grid-area: nav_compet;
+}
 nav {
     display: grid;
     grid-template-columns: repeat(7), 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "nav_profil "
+    "nav_profil nav_compet"
     ;
+    
 }

@@ -8,6 +8,12 @@ header {
   grid-area: nav_profil;
 }
 
+.nav_compet {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: nav_compet;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
@@ -15,6 +21,6 @@ nav {
       grid-template-columns: repeat(7), 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-      grid-template-areas: "nav_profil ";
+      grid-template-areas: "nav_profil nav_compet";
 }
 /*# sourceMappingURL=main.css.map */
