@@ -30,4 +30,6 @@ nav {
     "nav_profil nav_compet nav_log nav_exp"
     ;
     background-color: $colour-nav;
+    position: sticky;
+    top: 0;
 }
