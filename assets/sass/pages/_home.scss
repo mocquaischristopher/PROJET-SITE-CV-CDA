@@ -2,6 +2,7 @@ header {
     background-color: $colour-grey;
     background-blend-mode: soft-light;
     background-image: url(../../../img/img-header.PNG);
+    background-size: cover;
 }
 .nav_profil {
     grid-area: nav_profil;
