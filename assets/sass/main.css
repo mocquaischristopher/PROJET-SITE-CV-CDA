@@ -1,5 +1,15 @@
 header {
+  background-color: #cae8ff;
+  background-blend-mode: soft-light;
   background-image: url(../../../img/img-header.PNG);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+header > a {
+  text-decoration: none;
 }
 
 .nav_profil {
@@ -26,6 +36,12 @@ header {
   grid-area: nav_exp;
 }
 
+.nav_port {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  grid-area: nav_port;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
@@ -33,6 +49,10 @@ nav {
       grid-template-columns: repeat(7), 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-      grid-template-areas: "nav_profil nav_compet nav_log nav_exp";
+      grid-template-areas: "nav_profil nav_compet nav_log nav_exp nav_port";
+  background-color: #1e73be;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 /*# sourceMappingURL=main.css.map */

@@ -22,12 +22,15 @@ header > a {
 .nav_exp {
     grid-area: nav_exp;
 }
+.nav_port {
+    grid-area: nav_port;
+}
 nav {
     display: grid;
     grid-template-columns: repeat(7), 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-    "nav_profil nav_compet nav_log nav_exp"
+    "nav_profil nav_compet nav_log nav_exp nav_port"
     ;
     background-color: $colour-nav;
     position: sticky;
