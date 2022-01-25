@@ -42,6 +42,12 @@ header > a {
   grid-area: nav_port;
 }
 
+.nav_form {
+  -ms-grid-row: 1;
+  -ms-grid-column: 6;
+  grid-area: nav_form;
+}
+
 nav {
   display: -ms-grid;
   display: grid;
@@ -49,7 +55,7 @@ nav {
       grid-template-columns: repeat(7), 1fr;
   -ms-grid-rows: 1fr;
       grid-template-rows: 1fr;
-      grid-template-areas: "nav_profil nav_compet nav_log nav_exp nav_port";
+      grid-template-areas: "nav_profil nav_compet nav_log nav_exp nav_port nav_form";
   background-color: #1e73be;
   position: -webkit-sticky;
   position: sticky;
