@@ -43,9 +43,11 @@ nav {
     top: 0;
     & li {
         text-align: center;
+        list-style-type: none;
         padding: 15px 0;
+        color: $colour-white;
         & a {
-            list-style: none;
+            font-size: 1.6rem;
         }
     }
 }
