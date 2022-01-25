@@ -41,4 +41,11 @@ nav {
     background-color: $colour-nav;
     position: sticky;
     top: 0;
+    & li {
+        text-align: center;
+        padding: 15px 0;
+        & a {
+            list-style: none;
+        }
+    }
 }
